@@ -364,7 +364,7 @@ export default function Home() {
       {/* Running Locally Section - Sky Blue */}
       <section id="running-locally" className="bg-sky-100 pb-24 relative">
         <div className="mx-auto max-w-[768px] px-4 py-16">
-          <h2 className="mb-8 text-3xl font-bold text-emerald-800">Running Locally</h2>
+          <h2 className="mb-8 text-3xl font-bold text-emerald-800">Running Without NPX / NPM</h2>
           <div className="mb-4 rounded-xl bg-white/80 p-6 shadow-sm backdrop-blur-sm">
             <p className="mb-4 text-slate-600">
               Want to try out changes or contribute? Clone the repo and copy the files manually:
