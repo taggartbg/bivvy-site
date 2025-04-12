@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="70" height="70" role="img" aria-labelledby="title">
+  <title id="title">Simple Tent Logo with Circle Background</title>
+  
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="50" fill="#ecfdf5" /> 
+  
+  <!-- Tent Path (Scaled Up Slightly) -->
+  <path d="M 26 76 L 50 16 L 74 76 M 50 16 L 50 76" 
+        fill="none" 
+        stroke="#065f46" 
+        stroke-width="6" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+</svg>

@@ -26,9 +26,10 @@ export default function Home() {
         {/* Header */}
         <header className="container relative mx-auto px-4 py-8 md:py-16 z-10">
           <div className="flex flex-col items-center text-center">
-            <div className="mb-4 rounded-full bg-emerald-100 p-3">
-              <Package className="h-8 w-8 text-emerald-600" />
-            </div>
+            {/* <div className="mb-4 rounded-full bg-emerald-100 p-3"> */}
+              {/* <Package className="h-8 w-8 text-emerald-600" /> */}
+              <img src="/logo.svg" className="translate-y-[-4px]"/>
+            {/* </div> */}
             <h1 className="mb-2 text-4xl font-bold text-emerald-800 md:text-6xl">Bivvy</h1>
             <p className="mb-6 max-w-2xl text-lg text-emerald-700 md:text-xl">
               A Zero-Dependency Stateful PRD Framework for AI-Driven Development
