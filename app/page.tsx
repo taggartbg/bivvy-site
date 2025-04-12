@@ -43,9 +43,12 @@ export default function Home() {
                 <Github className="h-4 w-4" />
                 <span>GitHub</span>
               </Link>
-              <div className="flex items-center gap-2 rounded-full bg-emerald-600 px-5 py-2 text-white transition-colors hover:bg-emerald-500">
-                <span>npm install bivvy</span>
-              </div>
+              <Link
+                href="#get-in-touch"
+                className="flex items-center gap-2 rounded-full bg-emerald-600 px-5 py-2 text-white transition-colors hover:bg-emerald-500"
+              >
+                <span>Get in touch</span>
+              </Link>
             </div>
           </div>
         </header>
@@ -431,7 +434,7 @@ cp bivvy/src/rules/.cursor.mdc your-project/.cursor/rules/bivvy.mdc`,
       </section>
 
       {/* CTA Section - Amber */}
-      <section className="bg-amber-100 pb-16">
+      <section id="get-in-touch" className="bg-amber-100 pb-16">
         <div className="mx-auto max-w-[768px] px-4 py-16">
           <div className="rounded-2xl bg-gradient-to-br from-emerald-500 to-emerald-700 p-8 text-center text-white shadow-md">
             <h2 className="mb-4 text-2xl font-bold">Ready to Start Climbing?</h2>
@@ -455,6 +458,9 @@ cp bivvy/src/rules/.cursor.mdc your-project/.cursor/rules/bivvy.mdc`,
                 )}
               </div>
             </div>
+          </div>
+          <div className="text-center mt-16 -mb-16 text-3xl text-amber-900">
+            <p>Get in touch: <a href="https://x.com/taggartbg" target="_blank" rel="noopener noreferrer" className="text-emerald-700 hover:underline">taggartbg on X</a></p>
           </div>
         </div>
       </section>
