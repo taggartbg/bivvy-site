@@ -24,7 +24,7 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: process.env.NODE_ENV === 'production' ? '/bivvy-site' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/bivvy-site/' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://bivvy.ai' : '',
   experimental: {
     webpackBuildWorker: true,
     parallelServerBuildTraces: true,
